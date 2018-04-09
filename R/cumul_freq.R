@@ -174,3 +174,4 @@ findICE <- function(buckets, percs=c(0.2, 0.8)){
 percs_MSA_2000 <- function(ct_data, percentiles=c(0.2, 0.8)){
     buckets = ct_data %>% select(HC01_VC63:HC01_VC72) %>% colSums %>% t %>% as.data.frame.ts
     return(histo_histbin(buckets, percentiles=percentiles))
+}
