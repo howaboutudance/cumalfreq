@@ -1,0 +1,8 @@
+Package: ICEcumalfreq
+Version: 0.5.2
+Date: 2017-06-28
+Title: ICE from  Census Histogram Data using Cumalative Frequencies
+Description: allows calculation of percentiles from higher-level divsion of cenus data to lower. For instance MSA to Census Tract
+Author: Michael Penhallegon <crimson@crimsonfae.net>
+Maintainer: Michael Penhallegon <crimson@crimsonfae.net>
+RoxygenNote: 6.0.1
